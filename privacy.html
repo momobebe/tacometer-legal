@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+  <meta
+    name="description"
+    content="Politique de confidentialité de l'application Tacometer."
+  >
+  <title>Politique de confidentialité — Tacometer</title>
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f6f7f9;
+      --surface: #ffffff;
+      --text: #1d2939;
+      --muted: #667085;
+      --border: #e4e7ec;
+      --primary: #0f766e;
+      --primary-light: #e6f6f3;
+      --warning: #9a3412;
+      --warning-bg: #fff7ed;
+      --radius: 16px;
+      --shadow: 0 12px 35px rgba(16, 24, 40, 0.08);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #101828;
+        --surface: #1d2939;
+        --text: #f2f4f7;
+        --muted: #cbd5e1;
+        --border: #344054;
+        --primary: #5eead4;
+        --primary-light: #123d3a;
+        --warning: #fdba74;
+        --warning-bg: #3f2517;
+        --shadow: none;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .container {
+      width: min(100% - 32px, 840px);
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    .hero {
+      padding: 32px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .app-name {
+      display: inline-block;
+      margin: 0 0 14px;
+      padding: 5px 11px;
+      border-radius: 999px;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2 {
+      color: var(--text);
+      line-height: 1.25;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(30px, 5vw, 42px);
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 21px;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    .updated {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .summary {
+      margin: 28px 0 0;
+      padding: 18px 20px;
+      border-radius: 12px;
+      background: var(--primary-light);
+      color: var(--text);
+    }
+
+    .summary strong {
+      color: var(--primary);
+    }
+
+    .card {
+      margin-top: 20px;
+      padding: 28px 32px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      color: var(--primary);
+      font-weight: 650;
+      text-underline-offset: 3px;
+    }
+
+    .notice {
+      margin-top: 20px;
+      padding: 18px 20px;
+      border-radius: 12px;
+      background: var(--warning-bg);
+      color: var(--text);
+    }
+
+    .notice strong {
+      color: var(--warning);
+    }
+
+    footer {
+      padding: 26px 8px 0;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        width: min(100% - 24px, 840px);
+        padding: 24px 0 40px;
+      }
+
+      .hero,
+      .card {
+        padding: 24px 20px;
+        border-radius: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <header class="hero">
+      <p class="app-name">Tacometer</p>
+      <h1>Politique de confidentialité</h1>
+      <p class="updated">Dernière mise à jour : 22 août 2026</p>
+
+      <div class="summary">
+        <strong>En bref :</strong> vos données de courses et de clients
+        restent sur votre appareil. Tacometer ne possède pas de serveur
+        destiné à centraliser ou vendre vos données personnelles.
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>1. Responsable du traitement</h2>
+      <p>
+        L’application Tacometer est éditée par
+        <strong>Mohamed Benabou</strong>.
+      </p>
+      <p>
+        Pour toute question relative à la confidentialité ou à vos données,
+        vous pouvez écrire à :
+        <a href="mailto:À_COMPLÉTER@example.com">À_COMPLÉTER@example.com</a>.
+      </p>
+
+      <div class="notice">
+        <strong>À compléter avant publication :</strong>
+        remplacez l’adresse e-mail ci-dessus par une adresse de contact réelle
+        que vous consultez, par exemple
+        <code>contact@votredomaine.fr</code>.
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>2. Données traitées localement</h2>
+      <p>
+        Tacometer fonctionne selon un modèle principalement décentralisé.
+        Les informations que vous créez dans l’application sont stockées
+        localement sur votre appareil.
+      </p>
+      <ul>
+        <li>Historique des courses</li>
+        <li>Adresses associées aux courses</li>
+        <li>Fiches clients créées dans l’application</li>
+        <li>Données de géolocalisation nécessaires au suivi d’une course</li>
+        <li>Configurations de tarifs et de forfaits</li>
+        <li>Réservations et informations associées</li>
+      </ul>
+      <p>
+        Ces données ne sont pas centralisées sur un serveur exploité par
+        l’éditeur de Tacometer.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>3. Sécurité des données</h2>
+      <p>
+        Les données locales de l’application sont chiffrées au moyen de
+        SQLCipher afin de limiter les risques d’accès non autorisé, notamment
+        en cas de perte ou de vol de l’appareil.
+      </p>
+      <p>
+        Aucun système de sécurité ne peut toutefois garantir une protection
+        absolue. Vous restez responsable de la protection de votre appareil,
+        de son code de verrouillage et de vos sauvegardes éventuelles.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>4. Localisation, itinéraires et géocodage</h2>
+      <p>
+        La localisation peut être utilisée lorsque vous activez les
+        fonctionnalités de suivi de course. Elle permet notamment d’estimer
+        les distances et tarifs en temps réel.
+      </p>
+      <p>
+        Pour le calcul d’itinéraires et le géocodage inverse, certaines données
+        de localisation ou d’adresse peuvent être transmises temporairement à
+        des services tiers, notamment le Géoportail national et OSRM.
+      </p>
+      <p>
+        Ces transmissions sont nécessaires au fonctionnement des services de
+        cartographie. L’éditeur de Tacometer ne conserve pas un historique
+        nominatif de ces requêtes sur ses propres serveurs.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>5. Abonnements et RevenueCat</h2>
+      <p>
+        Tacometer peut proposer des fonctionnalités Premium via des achats
+        intégrés. Les paiements sont traités par Google Play ou l’App Store,
+        selon votre appareil.
+      </p>
+      <p>
+        Tacometer utilise RevenueCat pour gérer et vérifier le statut des
+        abonnements et des droits Premium. RevenueCat peut traiter des
+        informations techniques liées à l’achat, au statut d’abonnement et à
+        l’identifiant utilisé par son SDK afin de fournir ce service.
+      </p>
+      <p>
+        Les données de paiement complètes, telles que votre numéro de carte
+        bancaire, ne sont pas accessibles à l’éditeur de Tacometer.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>6. Partage des données</h2>
+      <p>
+        Tacometer ne vend pas vos données personnelles et ne les partage pas à
+        des fins publicitaires.
+      </p>
+      <p>
+        Les données peuvent être transmises uniquement lorsque cela est
+        nécessaire au fonctionnement des fonctionnalités demandées, notamment :
+      </p>
+      <ul>
+        <li>Aux services de cartographie et d’itinéraire mentionnés ci-dessus</li>
+        <li>À RevenueCat pour la gestion des abonnements Premium</li>
+        <li>À Google Play ou Apple pour le traitement des achats intégrés</li>
+        <li>
+          À l’application de votre choix lorsque vous utilisez volontairement
+          une fonctionnalité de partage ou d’export
+        </li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>7. Vos droits et contrôle des données</h2>
+      <p>
+        Vous conservez le contrôle de vos données stockées dans l’application.
+        Depuis les paramètres de Tacometer, vous pouvez notamment :
+      </p>
+      <ul>
+        <li>Exporter vos données au format JSON</li>
+        <li>Exporter votre fichier client au format CSV</li>
+        <li>Supprimer définitivement les données de l’application</li>
+        <li>Réinitialiser l’application depuis la section RGPD</li>
+      </ul>
+      <p>
+        Si vous avez une question ou une demande liée à vos droits, contactez
+        l’éditeur à l’adresse indiquée dans la section « Responsable du
+        traitement ».
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>8. Conservation des données</h2>
+      <p>
+        Les données locales sont conservées sur votre appareil jusqu’à leur
+        suppression par vous, à la désinstallation de l’application ou à la
+        réinitialisation des données depuis les paramètres de Tacometer.
+      </p>
+      <p>
+        Les données liées aux achats et abonnements sont conservées par les
+        plateformes concernées et par RevenueCat conformément à leurs propres
+        politiques de confidentialité et obligations légales.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>9. Modifications de cette politique</h2>
+      <p>
+        Cette politique peut être mise à jour afin de refléter les évolutions
+        de Tacometer, de ses services ou de la réglementation applicable.
+      </p>
+      <p>
+        La date de dernière mise à jour affichée en haut de cette page sera
+        modifiée en conséquence.
+      </p>
+    </section>
+
+    <footer>
+      © 2026 Tacometer — Politique de confidentialité
+    </footer>
+  </main>
+</body>
+</html>
